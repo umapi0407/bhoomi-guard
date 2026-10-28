@@ -1,0 +1,26 @@
+{
+  "name": "bhoomi-guard",
+  "version": "1.0.0",
+  "description": "BhoomiGuard - AI-Powered Software-Based Landslide Early Warning & Disaster Risk Monitoring Platform (NER)",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix server run build && npm --prefix client run build",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "disaster-management",
+    "landslide-early-warning",
+    "ner",
+    "geospatial-gis",
+    "whatsapp-crm",
+    "mern-stack"
+  ],
+  "author": "BhoomiGuard Team",
+  "license": "ISC"
+}
